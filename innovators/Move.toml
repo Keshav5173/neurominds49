@@ -1,0 +1,9 @@
+[package]
+name = "ans"
+version = "0.0.0"
+
+[addresses]
+ans= "0x1454e2b065638bcb8edf74618283a7ad9b9320cb7722d439ba8866c33cdd10e3"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }

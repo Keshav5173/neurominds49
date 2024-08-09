@@ -52,5 +52,5 @@ module ans::MyNewModule{
     #[view]
     public fun show_name(account: address): String acquires NameHolder {
         Self::get_name(account)
-    }
+    }
 }

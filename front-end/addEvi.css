@@ -30,7 +30,13 @@ html, body{
         width: 20vw;
         margin-bottom: 10px;
     }
-    button{
+    .uploadImg{
+        width: 20vw;
+        height: 30px;
+        
+    }
+    .submit{
+        margin-top: 10px;
         height: 30px;
         width: 7vw;
         margin-left: 4vw;
